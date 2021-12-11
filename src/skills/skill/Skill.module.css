@@ -1,18 +1,12 @@
-.skillsBlock{
-    height: 100vh;
-    background-color: bisque;
-}
-.container{
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
+.skill{
+    width: 250px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.skills{
-    width: 100%;
-}
-.title{
-
+.icon{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
 }
