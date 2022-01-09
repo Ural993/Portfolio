@@ -9,4 +9,6 @@
     width: 100px;
     height: 100px;
     background-color: #fff;
+
+    background-size: cover;
 }

@@ -1,12 +1,13 @@
 .main {
-    height: 100vh;
-    background-color: azure;
+    max-height: 100vh;
+    border-bottom: 1px solid #ddd;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -20,3 +21,9 @@
     background-color: aqua;
 }
 
+@media screen and (max-width: 750px){
+    .container{
+        justify-content: center;
+
+    }
+}
