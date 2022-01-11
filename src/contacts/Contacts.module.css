@@ -1,9 +1,9 @@
 .contacts {
-    height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 100px 0;
     border-bottom: 1px solid #ddd;
+    align-items: center;
 }
 
 .title {
@@ -23,17 +23,40 @@
 }
 
 .inp {
-    margin-bottom: 20px;
-    width: 300px;
-
+    width: 500px;
+    display: block;
+    height: 45px;
+    color: #333;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
 }
 
+
 .textarea {
-    width: 300px;
+    margin: 5px 0;
+    width: 500px;
+    border: 1px solid #ddd;
+    color: #777;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    height: 99px;
 }
 
 .btn {
     margin-top: 20px;
     width: 100px;
+
+    display: inline-block;
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #333;
 
 }

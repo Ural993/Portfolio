@@ -8,9 +8,9 @@ export const Contacts = () => {
         <div className={style.contacts}>
             <Title span ={'Contact '} h2={'Me'}/>
                     <form className={style.form} action="#">
-                        <input className={style.inp} type="text"/>
-                        <input className={style.inp} type="text"/>
-                        <textarea className={style.textarea}></textarea>
+                        <input className={style.inp} type="text" placeholder={'Name'}/>
+                        <input className={style.inp} type="text" placeholder={'Email'}/>
+                        <textarea className={style.textarea} placeholder={'Message'}></textarea>
                         <button className={style.btn}>Send</button>
                     </form>
         </div>

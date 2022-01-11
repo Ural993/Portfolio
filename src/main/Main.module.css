@@ -1,6 +1,7 @@
 .main {
     max-height: 100vh;
     border-bottom: 1px solid #ddd;
+    padding: 100px 0;
 }
 
 .container {
@@ -12,13 +13,14 @@
 
 .text {
     width: 300px;
-    background-color: aqua;
 }
 
 .photo {
     width: 300px;
     height: 400px;
     background-color: aqua;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width: 750px){
