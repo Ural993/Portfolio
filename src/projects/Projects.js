@@ -13,15 +13,22 @@ export const Projects = () => {
     const todolist = {
         backgroundImage: `url(${todolistIMG})`,
     };
+
     return (
-        <div className={style.projectsBlock}>
+        <div className={style.projectsBlock} id={'projects'}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title span ={'My '} h2={'Projects'}/>
                 <div className={style.projects}>
-                    <Project style={todolist} title={'TodoList'}
-                             text={'Этот проект я делал.'}/>
-                    <Project style={socialNetwork} title={'Cocial Network'}
-                             text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
+                    <Project title={"React Tasks"}
+                             img={socialNetwork}
+                             description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
+                             linkDemo={"https://pmuzychenko.github.io/react-homeworks"}
+                             linkCode={"https://github.com/pmuzychenko/react-homeworks"}/>
+                    <Project title={"React Tasks"}
+                             img={todolist}
+                             description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
+                             linkDemo={"https://pmuzychenko.github.io/react-homeworks"}
+                             linkCode={"https://github.com/pmuzychenko/react-homeworks"}/>
                 </div>
             </div>
         </div>

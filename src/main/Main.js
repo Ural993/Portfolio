@@ -9,7 +9,7 @@ export const Main = () => {
         backgroundImage: `url(${photoIMG})`,
     };
     return (
-        <div className={style.main}>
+        <div className={style.main} id={'main'}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div style={photo} className={style.photo}></div>
                 <div className={style.text}>

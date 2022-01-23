@@ -19,7 +19,7 @@ export const Skills = () => {
         backgroundImage: `url(${cssIMG})`,
     };
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id={'skills'}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title span ={'My '} h2={'Skills'}/>
                 <div className={style.skills}>
