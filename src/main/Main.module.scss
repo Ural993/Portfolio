@@ -1,7 +1,9 @@
+@import "../common/styles/sass/variables.scss";
 .main {
     max-height: 100vh;
-    border-bottom: 1px solid #ddd;
     padding: 100px 0;
+    position: relative;
+    background-color: $bgSecondColor;
 }
 
 .container {
@@ -21,6 +23,14 @@
     background-color: aqua;
     background-size: cover;
     background-position: center;
+}
+.particles {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.3;
 }
 
 @media screen and (max-width: 750px){

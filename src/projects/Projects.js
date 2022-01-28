@@ -1,10 +1,11 @@
 import React from "react";
-import style from "./Projects.module.css"
+import style from "./Projects.module.scss"
 import {Project} from "./project/Project";
 import styleContainer from "../common/styles/container.module.css";
 import {Title} from "../common/components/title/Title";
 import socialNetworkIMG from "../assets/img/socialNetwork.jpg"
 import todolistIMG from "../assets/img/todolist.jpg"
+import bgIMG from "../assets/img/bg.png"
 
 export const Projects = () => {
     const socialNetwork = {
@@ -19,16 +20,16 @@ export const Projects = () => {
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title span ={'My '} h2={'Projects'}/>
                 <div className={style.projects}>
-                    <Project title={"React Tasks"}
+                    <Project title={"Social Network"}
                              img={socialNetwork}
                              description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
-                             linkDemo={"https://pmuzychenko.github.io/react-homeworks"}
-                             linkCode={"https://github.com/pmuzychenko/react-homeworks"}/>
-                    <Project title={"React Tasks"}
+                             linkDemo={"https://ural993.github.io/App_IT-INCUBATOR"}
+                             linkCode={"https://github.com/Ural993/App_IT-INCUBATOR"}/>
+                    <Project title={"TodoList"}
                              img={todolist}
                              description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
-                             linkDemo={"https://pmuzychenko.github.io/react-homeworks"}
-                             linkCode={"https://github.com/pmuzychenko/react-homeworks"}/>
+                             linkDemo={"https://ural993.github.io/TodoList_IT-INCUBATOR"}
+                             linkCode={"https://github.com/Ural993/TodoList_IT-INCUBATOR"}/>
                 </div>
             </div>
         </div>

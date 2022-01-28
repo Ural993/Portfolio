@@ -1,8 +1,10 @@
+@import "./common/styles/sass/variables";
 body{
     font-family: 'Raleway', sans-serif;
     color: #777;
     font-size: 15px;
     line-height: 1.7;
+    background-color: $bgColor;
 }
 h2{
     font-size: 30px;

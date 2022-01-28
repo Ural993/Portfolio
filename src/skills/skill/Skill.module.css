@@ -12,3 +12,19 @@
 
     background-size: cover;
 }
+.iconWrapper{
+    background-color: #303030;
+    height: 80px;
+    width: 80px;
+    margin: 0 8px 16px;
+    border-radius: 0.63rem;
+    align-items: center;
+    box-shadow: 11px 10px 38px rgb(0 0 0 / 38%);
+}
+.skillIcon{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
