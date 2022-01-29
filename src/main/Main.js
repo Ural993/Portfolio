@@ -3,6 +3,7 @@ import style from './Main.module.scss'
 import styleContainer from '../common/styles/container.module.css'
 import photoIMG from "../assets/img/1.jpg";
 import Particles from 'react-tsparticles';
+import {TypingEffect} from "./TypingEffect/TypingEffect";
 
 
 export const Main = () => {
@@ -124,11 +125,11 @@ export const Main = () => {
         <div className={style.main} id={'main'}>
             {/*<Particles className={style.particles} params={particlesOptions} />*/}
             <div className={`${styleContainer.container} ${style.container}`}>
-                <div style={photo} className={style.photo}></div>
+                <div style={photo} className={style.photo}> </div>
                 <div className={style.text}>
-                    <span>Hi There</span>
+                    <span>Hello, I'm</span>
                     <h1>Ural Islamov</h1>
-                    <p>Frontend Developer</p>
+                  <TypingEffect/>
                 </div>
 
             </div>

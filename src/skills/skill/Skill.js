@@ -1,13 +1,15 @@
 import React from "react";
-import style from './Skill.module.css'
-import ReactTooltip from "react-tooltip";
+import style from './Skill.module.scss'
 
 
 export const Skill = (props) => {
     return (
-        <div className={style.iconWrapper}>
-            <div className={style.skillIcon} style={props.style} data-tip="HTML5"> </div>
-            <ReactTooltip place="top" type="warning" effect="solid"  />
+        <div className={style.skill}>
+            <div className={style.iconWrapper}>
+                <div className={style.skillIcon} style={props.style}></div>
+            </div>
+            <h3 className={style.skillTitle}>{props.title}</h3>
         </div>
+
     )
 }

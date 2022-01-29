@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Nav.module.css'
+import style from './Nav.module.scss'
 import {Link} from "react-scroll";
 
 
@@ -46,10 +46,3 @@ export const Nav = () => {
         </div>
     )
 }
-
-// <div className={style.nav}>
-//     <a href="/#" onClick={(e) => scrollUp("main", e)}>Main </a>
-//     <a href="/#" onClick={(e) => scrollUp("skills", e)}>Skills </a>
-//     <a href="/#" onClick={(e) => scrollUp("projects", e)}>Projects</a>
-//     <a href="/#" onClick={(e) => scrollUp("contacts", e)}>Contacts</a>
-// </div>

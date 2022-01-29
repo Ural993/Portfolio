@@ -1,5 +1,5 @@
 .footer {
-    padding: 50px 0;
+    padding: 25px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,22 +7,5 @@
     background-color: #000;
 }
 
-.title {
-    text-align: center;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: 0 auto;
-    border: 1px solid
-}
-
-.item {
-    width: 50px;
-    height: 50px;
-    background-color: lightslategray;
-}
 
 

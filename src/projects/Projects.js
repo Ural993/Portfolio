@@ -3,9 +3,8 @@ import style from "./Projects.module.scss"
 import {Project} from "./project/Project";
 import styleContainer from "../common/styles/container.module.css";
 import {Title} from "../common/components/title/Title";
-import socialNetworkIMG from "../assets/img/socialNetwork.jpg"
-import todolistIMG from "../assets/img/todolist.jpg"
-import bgIMG from "../assets/img/bg.png"
+import socialNetworkIMG from "../assets/img/socialNet.png"
+import todolistIMG from "../assets/img/todo.png"
 
 export const Projects = () => {
     const socialNetwork = {

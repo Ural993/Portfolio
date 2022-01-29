@@ -6,11 +6,13 @@
   text-align: center;
   position: relative;
 
+
   .img {
     width: 400px;
     height: 300px;
     background-position: center;
     background-size: cover;
+    border-radius: 0.63rem;
 
     .overlay {
       height: 100%;
@@ -18,6 +20,7 @@
       background-color: rgba(0, 0, 0, 0.5);
       opacity: 0;
       transition: opacity .25s ease-in-out;
+      border-radius: 0.63rem;
 
       &:hover {
         opacity: 1;

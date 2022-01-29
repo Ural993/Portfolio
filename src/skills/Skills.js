@@ -13,16 +13,16 @@ import npmIMG from "../assets/img/npm.png"
 import gitIMG from "../assets/img/git.png"
 
 export const Skills = () => {
-        const react = {
-            backgroundImage: `url(${reactIMG})`,
-        };
+    const react = {
+        backgroundImage: `url(${reactIMG})`,
+    };
     const js = {
         backgroundImage: `url(${jsIMG})`,
     };
     const ts = {
         backgroundImage: `url(${tsIMG})`,
     };
-    const css3= {
+    const css3 = {
         backgroundImage: `url(${css3IMG})`,
     };
     const html5 = {
@@ -40,16 +40,16 @@ export const Skills = () => {
     return (
         <div className={style.skillsBlock} id={'skills'}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <Title span ={'My '} h2={'Skills'}/>
+                <Title span={'My '} h2={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill  style={react} title={'JS'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={js} title={'React'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={ts} title={'Css'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={html5} title={'Css'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={css3} title={'Css'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={sass} title={'Css'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={npm} title={'Css'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
-                    <Skill style={git} title={'Css'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eveniet.'}/>
+                    <Skill style={react} title={'JavaScript'}/>
+                    <Skill style={js} title={'React'}/>
+                    <Skill style={ts} title={'TypeScript'}/>
+                    <Skill style={html5} title={'Html5'}/>
+                    <Skill style={css3} title={'Css3'}/>
+                    <Skill style={sass} title={'Sass'}/>
+                    <Skill style={npm} title={'npm'}/>
+                    <Skill style={git} title={'git'}/>
                 </div>
             </div>
         </div>

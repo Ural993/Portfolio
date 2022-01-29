@@ -15,6 +15,10 @@
 
 .text {
     width: 300px;
+    margin-right: 50px;
+    span{
+        color: $primaryColor;
+    }
 }
 
 .photo {
@@ -23,6 +27,7 @@
     background-color: aqua;
     background-size: cover;
     background-position: center;
+    margin-left: 50px;
 }
 .particles {
     position: absolute;

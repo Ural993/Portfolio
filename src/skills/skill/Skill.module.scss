@@ -1,0 +1,26 @@
+@import "./src/common/styles/sass/variables.scss";
+
+.skill{
+    width: 150px;
+}
+.iconWrapper{
+    background-color: #303030;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 0.63rem;
+    align-items: center;
+    box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
+}
+.skillIcon{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.skillTitle{
+    text-align: center;
+    text-transform: uppercase;
+    color: $mainTextColor;
+}
