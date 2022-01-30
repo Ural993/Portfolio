@@ -125,13 +125,15 @@ export const Main = () => {
         <div className={style.main} id={'main'}>
             {/*<Particles className={style.particles} params={particlesOptions} />*/}
             <div className={`${styleContainer.container} ${style.container}`}>
-                <div style={photo} className={style.photo}> </div>
                 <div className={style.text}>
                     <span>Hello, I'm</span>
                     <h1>Ural Islamov</h1>
-                  <TypingEffect/>
+                    <TypingEffect/>
                 </div>
-
+                <div className={style.image}>
+                    <div style={photo} className={style.photo}></div>
+                    <div className={style.shape}></div>
+                </div>
             </div>
 
         </div>

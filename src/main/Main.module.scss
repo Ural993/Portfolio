@@ -1,46 +1,107 @@
 @import "../common/styles/sass/variables.scss";
+
 .main {
-    max-height: 100vh;
-    padding: 100px 0;
-    position: relative;
-    background-color: $bgSecondColor;
+  max-height: 100vh;
+  padding: 100px 0;
+  position: relative;
+  background-color: $bgSecondColor;
+  height: 100vh;
+
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .text {
-    width: 300px;
-    margin-right: 50px;
-    span{
-        color: $primaryColor;
-    }
+  width: 300px;
+  margin-left: 20%;
+
+  span {
+    color: $primaryColor;
+  }
+}
+
+.image {
+  position: relative;
+  right: 30%;
+  top: -50%;
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: aqua;
-    background-size: cover;
-    background-position: center;
-    margin-left: 50px;
+  width: 300px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+  transform: rotate(7deg);
+  border-radius: 10px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+
+.shape {
+  background-color: $primaryColor;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 23px;
+  bottom: -23px;
+  left: -95px;
+  transform: rotate(-6deg);
+  z-index: 1;
+}
+
 .particles {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    opacity: 0.3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
 }
 
-@media screen and (max-width: 750px){
-    .container{
-        justify-content: center;
 
-    }
+@media screen and (max-width: 1440px) {
+  .image {
+    right: 40%;
+  }
+  .text {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1133px) {
+  .shape {
+    display: none;
+  }
+  .photo {
+    transform: none;
+    display: block;
+    position: inherit;
+    margin-left: 0;
+  }
+  .image {
+    position: inherit;
+  }
+}
+
+@media screen and (max-width: 797px) {
+  .text {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
 }

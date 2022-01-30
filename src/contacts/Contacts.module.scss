@@ -1,76 +1,120 @@
 @import "../common/styles/sass/variables.scss";
 
 .contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  align-items: center;
+
+  .contactsWrapper {
     display: flex;
-    flex-direction: column;
-    padding: 100px 0;
-    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 1189px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .short {
+      margin-left: 10%;
+      @media screen and (max-width: 1189px) {
+          margin-left: 0;
+      }
+      .listInner {
+        width: 300px;
+        height: 30px;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        margin-bottom: 20px;
+
+        span {
+          margin-left: 50px;
+          filter: invert(1);
+        }
+      }
+    }
+
+    .formWrapper {
+      width: 50%;
+      @media screen and (max-width: 1189px) {
+        width: 95%;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+
+        .inp {
+          width: 95%;
+          display: block;
+          height: 45px;
+          margin: 5px 0;
+          font-size: 15px;
+          line-height: 1.7;
+          font-family: 'Raleway', sans-serif;
+          padding-left: 10px;
+          border: 1px solid rgba(255, 255, 255, .3);
+          color: #fff;
+          background-color: transparent;
+
+          &::placeholder {
+            color: #fff;
+          }
+        }
+
+
+        .textarea {
+          width: 95%;
+          margin: 5px 0;
+          font-size: 15px;
+          line-height: 1.7;
+          font-family: 'Raleway', sans-serif;
+          padding-left: 10px;
+          height: 99px;
+          border: 1px solid rgba(255, 255, 255, .3);
+          color: #fff;
+          background-color: transparent;
+
+          &::placeholder {
+            color: #fff;
+          }
+        }
+
+        .btn {
+          margin-top: 20px;
+          width: 95%;
+          display: inline-block;
+          padding: 10px 25px;
+          border: none;
+          color: #fff;
+          font-weight: 600;
+          background-color: $primaryColor;
+          cursor: pointer;
+          transition: all .3s ease;
+
+          &:hover {
+            background-color: #111;
+          }
+        }
+      }
+    }
+  }
 }
 
 .title {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.wrapperForm {
-    height: 100%;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-
-}
-
-.inp {
-    width: 500px;
-    display: block;
-    height: 45px;
-    margin: 5px 0;
-    font-size: 15px;
-    line-height: 1.7;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 10px;
-    border: 1px solid rgba(255,255,255,.1);
-    color: #fff;
-    background-color: transparent;
-    &::placeholder{
-        color: #fff;
-    }
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 
-.textarea {
-    margin: 5px 0;
-    width: 500px;
-    font-size: 15px;
-    line-height: 1.7;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 10px;
-    height: 99px;
-    border: 1px solid rgba(255,255,255,.1);
-    color: #fff;
-    background-color: transparent;
-    &::placeholder{
-        color: #fff;
-    }
+@media screen and (max-width: 797px) {
+  .text {
+    margin-left: 0;
+  }
 }
-
-.btn {
-    margin-top: 20px;
-    width: 100px;
-    display: inline-block;
-    padding: 10px 25px;
-    border: none;
-    color: #fff;
-    font-weight: 600;
-    background-color: $primaryColor;
-    cursor: pointer;
-    transition: all .3s ease;
-    &:hover{
-        background-color: #111;
-    }
-
+@media screen and (max-width: 1189px) {
+  .short  {
+    margin-left: 0;
+  }
 }
