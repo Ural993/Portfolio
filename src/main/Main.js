@@ -131,11 +131,10 @@ export const Main = () => {
                     <TypingEffect/>
                 </div>
                 <div className={style.image}>
-                    <div style={photo} className={style.photo}></div>
-                    <div className={style.shape}></div>
+                    <div style={photo} className={style.photo}> </div>
+                    <div className={style.shape}> </div>
                 </div>
             </div>
-
         </div>
     )
 }

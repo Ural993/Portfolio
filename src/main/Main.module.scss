@@ -1,7 +1,7 @@
 @import "../common/styles/sass/variables.scss";
 
 .main {
-  max-height: 100vh;
+
   padding: 100px 0;
   position: relative;
   background-color: $bgSecondColor;
@@ -28,6 +28,7 @@
   position: relative;
   right: 30%;
   top: -50%;
+  margin-bottom: 20px;
 }
 
 .photo {

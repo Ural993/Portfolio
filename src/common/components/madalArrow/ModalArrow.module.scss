@@ -10,6 +10,9 @@
   background-color: $primaryColor;
   top: 93%;
   left: 95%;
+  @media screen and (max-width: 860px) {
+    left: 90%;
+  }
 
   .icon {
     color: #eeeeee;
