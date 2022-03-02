@@ -18,9 +18,11 @@
 .text {
   width: 300px;
   margin-left: 20%;
+  font-size: 18px;
 
   span {
     color: $primaryColor;
+    font-size: 28px;
   }
 }
 

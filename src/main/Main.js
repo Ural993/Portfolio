@@ -4,6 +4,7 @@ import styleContainer from '../common/styles/container.module.css'
 import photoIMG from "../assets/img/1.jpg";
 import Particles from 'react-tsparticles';
 import {TypingEffect} from "./TypingEffect/TypingEffect";
+import Fade from 'react-reveal/Fade';
 
 
 export const Main = () => {
@@ -123,18 +124,20 @@ export const Main = () => {
 
     return (
         <div className={style.main} id={'main'}>
-            {/*<Particles className={style.particles} params={particlesOptions} />*/}
-            <div className={`${styleContainer.container} ${style.container}`}>
-                <div className={style.text}>
-                    <span>Hello, I'm</span>
-                    <h1>Ural Islamov</h1>
-                    <TypingEffect/>
+            <Fade top>
+                {/*<Particles className={style.particles} params={particlesOptions} />*/}
+                <div className={`${styleContainer.container} ${style.container}`}>
+                    <div className={style.text}>
+                        <span>Hello, I'm</span>
+                        <h1>Ural Islamov</h1>
+                        <TypingEffect/>
+                    </div>
+                    <div className={style.image}>
+                        <div style={photo} className={style.photo}>{''}</div>
+                        <div className={style.shape}>{''}</div>
+                    </div>
                 </div>
-                <div className={style.image}>
-                    <div style={photo} className={style.photo}> </div>
-                    <div className={style.shape}> </div>
-                </div>
-            </div>
+            </Fade>
         </div>
     )
 }

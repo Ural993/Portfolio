@@ -14,6 +14,7 @@ import restApiIMG from "../assets/img/restApi.png"
 import npmIMG from "../assets/img/npm.png"
 import gitIMG from "../assets/img/git.png"
 
+
 export const Skills = () => {
     const react = {
         backgroundImage: `url(${reactIMG})`,
@@ -49,18 +50,21 @@ export const Skills = () => {
         <div className={style.skillsBlock} id={'skills'}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title span={'My '} h2={'Skills'}/>
-                <div className={style.skills}>
-                    <Skill style={react} title={'React'}/>
-                    <Skill style={redux} title={'Redux'}/>
-                    <Skill style={js} title={'JavaScript'}/>
-                    <Skill style={ts} title={'TypeScript'}/>
-                    <Skill style={html5} title={'Html5'}/>
-                    <Skill style={css3} title={'Css3'}/>
-                    <Skill style={sass} title={'Sass'}/>
-                    <Skill style={restApi} title={'rest api'}/>
-                    <Skill style={npm} title={'npm'}/>
-                    <Skill style={git} title={'git'}/>
-                </div>
+
+                        <div className={style.skills}>
+                            <Skill style={react} title={'React'}/>
+                            <Skill style={redux} title={'Redux'}/>
+                            <Skill style={js} title={'JavaScript'}/>
+                            <Skill style={ts} title={'TypeScript'}/>
+                            <Skill style={html5} title={'Html5'}/>
+                            <Skill style={css3} title={'Css3'}/>
+                            <Skill style={sass} title={'Sass'}/>
+                            <Skill style={restApi} title={'rest api'}/>
+                            <Skill style={npm} title={'npm'}/>
+                            <Skill style={git} title={'git'}/>
+                        </div>
+
+
             </div>
         </div>
     )

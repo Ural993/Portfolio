@@ -5,6 +5,8 @@ import styleContainer from "../common/styles/container.module.css";
 import {Title} from "../common/components/title/Title";
 import socialNetworkIMG from "../assets/img/socialNet.png"
 import todolistIMG from "../assets/img/todo.png"
+import Fade from 'react-reveal/Fade';
+
 
 export const Projects = () => {
     const socialNetwork = {
@@ -17,18 +19,22 @@ export const Projects = () => {
     return (
         <div className={style.projectsBlock} id={'projects'}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <Title span ={'My '} h2={'Projects'}/>
+                <Title span={'My '} h2={'Projects'}/>
                 <div className={style.projects}>
-                    <Project title={"Social Network"}
-                             img={socialNetwork}
-                             description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
-                             linkDemo={"https://ural993.github.io/App_IT-INCUBATOR"}
-                             linkCode={"https://github.com/Ural993/App_IT-INCUBATOR"}/>
+                    <Fade left>
+                        <Project title={"Social Network"}
+                                 img={socialNetwork}
+                                 description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
+                                 linkDemo={"https://ural993.github.io/App_IT-INCUBATOR"}
+                                 linkCode={"https://github.com/Ural993/App_IT-INCUBATOR"}/>
+                    </Fade>
+                    <Fade right>
                     <Project title={"TodoList"}
                              img={todolist}
                              description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
                              linkDemo={"https://ural993.github.io/TodoList_IT-INCUBATOR"}
                              linkCode={"https://github.com/Ural993/TodoList_IT-INCUBATOR"}/>
+                    </Fade>
                 </div>
             </div>
         </div>

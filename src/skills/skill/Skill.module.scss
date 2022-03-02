@@ -3,6 +3,8 @@
 .skill{
     width: 150px;
     margin-bottom: 20px;
+
+
 }
 .iconWrapper{
     background-color: #303030;
@@ -21,6 +23,7 @@
     left: 15px;
 }
 .skillTitle{
+    margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
     color: $mainTextColor;
