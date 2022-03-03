@@ -20,7 +20,7 @@ export const Nav = () => {
                   className={style.link}
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-50}
                   duration={500}>Main </Link>
             <Link href="/#" to={'skills'}
                   activeClass={style.activeLink}
