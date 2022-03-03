@@ -4,18 +4,18 @@
   display: flex;
   flex-direction: column;
   padding: 100px 0;
-  align-items: center;
+  //align-items: center;
 
   .contactsWrapper {
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 1189px) {
       flex-direction: column;
-      align-items: center;
     }
 
     .short {
       margin-left: 10%;
+      margin-bottom: 20px;
       @media screen and (max-width: 1189px) {
           margin-left: 0;
       }
@@ -68,7 +68,7 @@
       .form {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        //align-items: center;
         position: relative;
 
 
