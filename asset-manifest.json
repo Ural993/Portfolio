@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fd15dcbc.chunk.css",
-    "main.js": "/Portfolio/static/js/main.31cf13af.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.31cf13af.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.21fc845f.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.21fc845f.js.map",
-    "static/js/2.1b52013f.chunk.js": "/Portfolio/static/js/2.1b52013f.chunk.js",
-    "static/js/2.1b52013f.chunk.js.map": "/Portfolio/static/js/2.1b52013f.chunk.js.map",
-    "static/js/3.ad132e8f.chunk.js": "/Portfolio/static/js/3.ad132e8f.chunk.js",
-    "static/js/3.ad132e8f.chunk.js.map": "/Portfolio/static/js/3.ad132e8f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0fa19631.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9ec23d41.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9ec23d41.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.6d5e2e99.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6d5e2e99.js.map",
+    "static/js/2.78b97ef4.chunk.js": "/Portfolio/static/js/2.78b97ef4.chunk.js",
+    "static/js/2.78b97ef4.chunk.js.map": "/Portfolio/static/js/2.78b97ef4.chunk.js.map",
+    "static/js/3.4693e1c7.chunk.js": "/Portfolio/static/js/3.4693e1c7.chunk.js",
+    "static/js/3.4693e1c7.chunk.js.map": "/Portfolio/static/js/3.4693e1c7.chunk.js.map",
+    "static/js/4.820cbe4e.chunk.js": "/Portfolio/static/js/4.820cbe4e.chunk.js",
+    "static/js/4.820cbe4e.chunk.js.map": "/Portfolio/static/js/4.820cbe4e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.fd15dcbc.chunk.css.map": "/Portfolio/static/css/main.fd15dcbc.chunk.css.map",
-    "static/js/2.1b52013f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1b52013f.chunk.js.LICENSE.txt",
+    "static/css/main.0fa19631.chunk.css.map": "/Portfolio/static/css/main.0fa19631.chunk.css.map",
+    "static/js/2.78b97ef4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.78b97ef4.chunk.js.LICENSE.txt",
     "static/media/1.a8b4a9b7.jpg": "/Portfolio/static/media/1.a8b4a9b7.jpg",
     "static/media/socialNet.c723440c.png": "/Portfolio/static/media/socialNet.c723440c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.21fc845f.js",
-    "static/js/2.1b52013f.chunk.js",
-    "static/css/main.fd15dcbc.chunk.css",
-    "static/js/main.31cf13af.chunk.js"
+    "static/js/runtime-main.6d5e2e99.js",
+    "static/js/2.78b97ef4.chunk.js",
+    "static/css/main.0fa19631.chunk.css",
+    "static/js/main.9ec23d41.chunk.js"
   ]
 }
