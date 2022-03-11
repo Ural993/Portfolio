@@ -17,6 +17,9 @@
       flex-wrap: wrap;
       @media screen and (max-width: 1007px) {
         justify-content: center;
+        :nth-child(2n+2) {
+          margin-left: 20px;
+        }
       }
     }
   }

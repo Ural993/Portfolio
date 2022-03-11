@@ -22,11 +22,11 @@ export const Projects = () => {
                 <Title span={'My '} h2={'Projects'}/>
                 <div className={style.projects}>
                     <Fade left>
-                        <Project title={"Social Network"}
+                        <Project title={"Cards"}
                                  img={socialNetwork}
                                  description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
-                                 linkDemo={"https://ural993.github.io/App_IT-INCUBATOR"}
-                                 linkCode={"https://github.com/Ural993/App_IT-INCUBATOR"}/>
+                                 linkDemo={"https://Ural993.github.io/Cards"}
+                                 linkCode={"https://github.com/Ural993/Cards"}/>
                     </Fade>
                     <Fade right>
                     <Project title={"TodoList"}
